@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="auth">
+        <div class="auth-content">
+            <img src="images/logo.png" alt="logo"><br>
+            <p>Вход в электронную информационно-образовательную среду СКСИ</p><br>
+            <input type="email" id="auth-email" placeholder="Email" value="e.pasechnij@sksi.ru"><br>
+            <input type="password" id="auth-password" placeholder="Пароль" value="MTzJjJFF"><br>
+            <button class='auth-button' onclick="login()">Войти</button><br>
+            <span id="auth-alert">aa</span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js" integrity="sha512-iWPnCISAd/J+ZacwV2mbNLCaPGRrRo5OS81lKTVPtRg1wGTC20Cfmp5Us5RcbLv42QLdbAWl0MI57yox5VecQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>
